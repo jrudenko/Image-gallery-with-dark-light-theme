@@ -1,0 +1,36 @@
+.body {
+    background: #fff;
+}
+.theme {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(39, 38, 40, 0.4);
+}
+
+.theme {
+    background: #065527;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.search-form__button {
+
+    &:hover,
+    &:focus {
+        background-color: #065527;
+        color: #ffffff;
+    }
+}
+
+
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #ffffff;
+}
+
+
+.info {
+    color: black;
+    padding: 15px;
+}

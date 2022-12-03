@@ -8,6 +8,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import throttle from 'lodash.throttle';
+import { theme } from './js/theme';
 
 let getEl = selector => document.querySelector(selector);
 

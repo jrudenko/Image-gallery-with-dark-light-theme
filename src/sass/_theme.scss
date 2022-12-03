@@ -1,0 +1,21 @@
+.theme {
+    position: fixed;
+    cursor: pointer;
+    top: 50px;
+    // left: 10px;
+    right: 5px;
+    transform: translateY(-100%);
+    padding: 2px;
+    background: rgba(7, 175, 66, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39, 38, 40, 0.4);
+
+        @media screen and (min-width: $totablet) {
+                padding: 5px;
+                top: 65px;
+            }
+                @media screen and (min-width: $tablet) {
+                    padding: 8px;
+                    top: 65px;
+                }
+}
