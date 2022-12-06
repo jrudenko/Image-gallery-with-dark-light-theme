@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple image search with Pixabay API.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous" />
@@ -13,10 +14,12 @@
       <title>Image search</title>
   </head>
   <body>
+    <!-- Search form -->
     <form class="search-form" id="search-form">
       <input class="search-form__input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
       <button class="search-form__button" type="submit"><span class="material-icons">search</span></button>
     </form>
+    <!-- Theme -->
     <div class="theme">
       <svg class="changeTheme" data-theme="light" width="30" height="30" viewBox="0 0 40 40" fill="#ffffff"
         xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -31,10 +34,11 @@
           fill="#222222"></path>
       </svg>
     </div>
+    <!-- Gallery -->
       <div class="container">
         <div class="gallery"></div>
         <button type="button" class="load-more is-hidden">Load more</button>
-        <a class="btn-to-top" title="Return to top"> <span class="material-icons">arrow_upward</span></a>
+        <!-- <a class="btn-to-top" title="Return to top"> <span class="material-icons">arrow_upward</span></a> -->
         <p class="end-collection-text is-hidden">
           We're sorry, but you've reached the end of search results.
         </p>
