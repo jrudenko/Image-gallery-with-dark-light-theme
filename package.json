@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://jrudenko.github.io/Image-gallery-with-dark-light-theme",
+  "homepage": "https://jrudenko.github.io/image-gallery-with-dark-light-theme",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Image-gallery-with-dark-light-theme/"
+    "build": "parcel build src/*.html --public-url /image-gallery-with-dark-light-theme/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrudenko/Image-gallery-with-dark-light-theme.git"
+    "url": "git+https://github.com/jrudenko/image-gallery-with-dark-light-theme.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
