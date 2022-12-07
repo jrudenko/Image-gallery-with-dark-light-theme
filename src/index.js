@@ -1,13 +1,12 @@
 import Notiflix from 'notiflix';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 import { fetchImages } from './js/fetch';
 import { renderGallery } from './js/render';
 import { onScroll, onToTopBtn } from './js/scroll';
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+
 import throttle from 'lodash.throttle';
 import { theme } from './js/theme';
-// import './js/back-to-top';
 
 let getEl = selector => document.querySelector(selector);
 
